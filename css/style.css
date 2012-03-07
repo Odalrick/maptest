@@ -223,6 +223,17 @@ td { vertical-align: top; }
 
 
 
+#map_view { width: 500px; height: 500px; border: 1px solid #551a8b; line-height: .5; white-space: nowrap; overflow: scroll; }
+
+#map_view .tile { width: 50px; height: 50px; display: inline-block; border: 1px dashed #f5f5f5; background-repeat: no-repeat; background-position: center;  }
+#map_view .grass { background-color: #228b22; border-color: green; }
+#map_view .sea { background-color: #25268a; border-color: blue; }
+#map_view .castle { background-image: url("../img/Castle.GIF"); }
+
+
+
+
+
 
 
 
